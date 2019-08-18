@@ -6,17 +6,13 @@ body {
   height: 100%;
   overflow: hidden;
 }
-%center-flex {
+
+body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-}
-body {
-  @extend %center-flex;
   position: relative;
-  // background: center / cover no-repeat
-  //   url("https://images.unsplash.com/photo-1488330890490-c291ecf62571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
 }
 
 video {
@@ -24,8 +20,10 @@ video {
   z-index:-1;
   width:100%;
 }
+
 div {
   overflow: hidden;
+  // Modify range to match length of string to be dsplayed
   @for $i from 0 through 7 {
     &:nth-of-type(#{$i}) {
       & > canvas {
