@@ -1,10 +1,11 @@
 {
-  "name": "Interactive Text-Distortion",
-  "version": "1.0.0",
-  "description": "",
+  "name": "interactive-text-distortion",
+  "version": "1.0.1",
+  "description": "Liquid Distortion Effect using Blotter.js",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production",
+    "lint":"eslint src/index.js --fix",
     "serve": "webpack-dev-server --port 8080 --open"
   },
   "repository": {
@@ -24,5 +25,9 @@
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7",
     "webpack-dev-server": "^3.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-google": "^0.13.0"
   }
 }
