@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash|Satisfy&display=swap");
+:root,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  position: relative;
+}
+
+video {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+div {
+  overflow: hidden;
+}
+
+div:nth-of-type(0) > canvas {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+  -webkit-animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 00ms;
+          animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 00ms;
+}
+
+div:nth-of-type(1) > canvas {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+  -webkit-animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 200ms;
+          animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 200ms;
+}
+
+div:nth-of-type(2) > canvas {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+  -webkit-animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 400ms;
+          animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 400ms;
+}
+
+div:nth-of-type(3) > canvas {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+  -webkit-animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 600ms;
+          animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 600ms;
+}
+
+div:nth-of-type(4) > canvas {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+  -webkit-animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 800ms;
+          animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 800ms;
+}
+
+div:nth-of-type(5) > canvas {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+  -webkit-animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 1000ms;
+          animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 1000ms;
+}
+
+div:nth-of-type(6) > canvas {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+  -webkit-animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 1200ms;
+          animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 1200ms;
+}
+
+div:nth-of-type(7) > canvas {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+  -webkit-animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 1400ms;
+          animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards 1400ms;
+}
+
+@-webkit-keyframes up {
+  100% {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes up {
+  100% {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

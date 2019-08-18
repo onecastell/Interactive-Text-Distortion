@@ -1,0 +1,28 @@
+{
+  "name": "Interactive Text-Distortion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "serve": "webpack-dev-server --port 8080 --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onecastell/Interactive-Text-Distortion.git"
+  },
+  "keywords": [],
+  "author": "Franklin Castellanos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onecastell/Interactive-Text-Distortion/issues"
+  },
+  "homepage": "https://github.com/onecastell/Interactive-Text-Distortion#readme",
+  "dependencies": {
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}

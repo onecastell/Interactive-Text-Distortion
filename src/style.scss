@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash|Satisfy&display=swap");
+:root,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+%center-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  @extend %center-flex;
+  position: relative;
+  // background: center / cover no-repeat
+  //   url("https://images.unsplash.com/photo-1488330890490-c291ecf62571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+}
+
+video {
+  position: absolute;
+  z-index:-1;
+  width:100%;
+}
+div {
+  overflow: hidden;
+  @for $i from 0 through 7 {
+    &:nth-of-type(#{$i}) {
+      & > canvas {
+        transform: translate3d(0, 100%, 0);
+        animation: up 800ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards #{$i*20}0ms;
+      }
+    }
+  }
+}
+
+@keyframes up {
+  100% {
+    transform: none;
+  }
+}
