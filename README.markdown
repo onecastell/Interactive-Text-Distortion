@@ -13,7 +13,7 @@ Liquid Distortion Effect using Blotter.js
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on your system.
+These instructions will get you a copy of the project up and running on your local machine See deployment for notes on how to deploy the project on your system and run it in a web browser.
 
 ### Installation
 
@@ -23,9 +23,8 @@ This will install all required dependencies
 
 ### Local build and deployment
 
-* local server - `npm run serve`
-
-* dist version - `npm run build`
+* build - `npm run build`
+* deploy - `npm run serve`
 
 ## Dependencies
 
